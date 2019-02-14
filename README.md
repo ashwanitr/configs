@@ -1,2 +1,3 @@
 # vimrc_file
-My vimrc fiel
+My vimrc file
+

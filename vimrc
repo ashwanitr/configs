@@ -1,4 +1,3 @@
-" read the mentioned blog for better understanding of the vimrc file
 "https://realpython.com/vim-and-python-a-match-made-in-heaven/
 
 set nocompatible              " required
@@ -28,9 +27,11 @@ Plugin 'Valloric/YouCompleteMe'
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
 :au BufNewFile *.cpp r ~/.vim/comp.cpp
 
 set background=dark
+
 set splitbelow
 set splitright
 
@@ -59,7 +60,7 @@ set encoding=utf-8
 
 
 "for moving between different tabs in split mode
-
+" CTR+ standard navigation keys in vim will do the work
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
@@ -73,3 +74,10 @@ nnoremap <space> za
 
 let python_highlight_all=1
 syntax on
+
+
+" for moving between tabs in vim 
+" use tab_numbergt to get into the tab 
+" e.g 1gt will move you to 1 tab and so on
+nnoremap <C-Left> :tabprevious<CR>
+nnoremap <C-Right> :tabnext<CR>

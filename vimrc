@@ -1,3 +1,4 @@
+" read the mentioned blog for better understanding of the vimrc file
 "https://realpython.com/vim-and-python-a-match-made-in-heaven/
 
 set nocompatible              " required

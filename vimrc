@@ -1,3 +1,4 @@
+# For basic tutorial on vimrc go through the following link
 "https://realpython.com/vim-and-python-a-match-made-in-heaven/
 
 set nocompatible              " required
